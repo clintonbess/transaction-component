@@ -1,5 +1,6 @@
 <template>
   <div class="transaction-feed-component">
+    <h3>Transaction Feed</h3>
     <div class="account-details">
       <div class="account-details-row">
         <div>Available balance (after pending transactions)</div>
