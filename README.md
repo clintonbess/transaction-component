@@ -1,4 +1,6 @@
 # transaction-component
+
+![Image of Transaction Feed](images/transaction-feed.PNG)
 ## Overview
 For this project I kept everything simple by using the Vue-CLI to generate the project bones. Below are a few assumptions:
 - The transaction feed data from the "API" lists transactions in ascending order by date
@@ -6,6 +8,7 @@ For this project I kept everything simple by using the Vue-CLI to generate the p
 - The transactions labeled `NotSettled` are the same as the transactions where `Billed: false`
 - Correct data will be provided when testing the components
 - No extra packages should be used since the components will be tested out side of this app
+
 
 ## Project setup
 ```
