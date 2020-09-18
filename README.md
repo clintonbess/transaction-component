@@ -24,7 +24,7 @@ The project contains two vue components that should be able to be easily tested 
 
 ### TransactionFeed.vue
 
-[TransactionFeed.vue](src/Components/TransactionFeed.vue) is the component that was contracted to be written. Once initialized it creates a list of transactions that are to be used by the `Transaction` component by appending the `StartingBalance` and `EndingBalance` to the transaction objects. Afterwards, the transaction list is reversed in order to display the most recent transactions first.
+[TransactionFeed.vue](src/components/TransactionFeed.vue) is the component that was contracted to be written. Once initialized it creates a list of transactions that are to be used by the `Transaction` component by appending the `StartingBalance` and `EndingBalance` to the transaction objects. Afterwards, the transaction list is reversed in order to display the most recent transactions first.
 
 The `availableBalance` is calculated by reduction. The first available balance is used as the starting value while the transaction amounts are continuously subtracted from it.
 
@@ -32,4 +32,4 @@ The `pendingTransactionCount` is found by filtering the transaction list and sel
 
 ### Transaction.vue
 
-[Transaction.vue](src/Components/Transaction.vue) is a clickable component that will show the details of a transaction once clicked. It requires that a `transaction` prop be passed in order to be rendered. All of the heavy lifting for retrieving the details from the transaction is performed in the `TransactionFeed` component. All of the computed properties are used to display the values inside of the details view.
+[Transaction.vue](src/components/Transaction.vue) is a clickable component that will show the details of a transaction once clicked. It requires that a `transaction` prop be passed in order to be rendered. All of the heavy lifting for retrieving the details from the transaction is performed in the `TransactionFeed` component. All of the computed properties are used to display the values inside of the details view.
